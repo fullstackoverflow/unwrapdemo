@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2015",
+        "sourceMap": true,
+        "allowJs": false,
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "lib/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
